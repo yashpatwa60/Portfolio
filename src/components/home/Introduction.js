@@ -7,7 +7,7 @@ export const Introduction = () => {
   return (
     <div className="container h-96  bg-contain">
       <main className="p-5 my-4">
-        <p className="text-3xl underline ml-8 mb-2">Introduction</p>
+        <p className="text-3xl underline ml-8 mb-2">Introduction </p>
 
         <div className="flex justify-evenly items-center bg-dot-1 bg-cover pt-5 pb-16">
           <div className="flex">
