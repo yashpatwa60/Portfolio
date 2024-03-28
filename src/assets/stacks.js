@@ -1,3 +1,10 @@
+import { Html as HtmlImg } from "../assets/img/stacks/Html";
+import { Mongodb as MongodbImg } from "../assets/img/stacks/Mongodb";
+import { Redux as ReduxImg } from "../assets/img/stacks/Redux";
+import { Python as PythonImg } from "../assets/img/stacks/Python";
+import { Svelte as SvelteImg } from "../assets/img/stacks/Svelte";
+import { TypeScript as TypeScriptImg } from "../assets/img/stacks/TypeScript";
+
 export const VueImg = () => {
   return (
     <svg
@@ -225,3 +232,5 @@ export const ReactImg = () => {
     </svg>
   );
 };
+
+export { HtmlImg, MongodbImg, ReduxImg, PythonImg, SvelteImg, TypeScriptImg };

@@ -100,7 +100,7 @@ const Navbar = () => {
                       } absolute right-0 z-20 w-56 py-2 mt-2 overflow-hidden bg-white rounded-md shadow-xl dark:bg-gray-800`}
                     >
                       <a
-                        href="/about"
+                        href="mailto:yashpatwa1602@gmail.com"
                         className="flex items-center p-3 -mt-2 text-sm text-gray-600 transition-colors duration-200 transform dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white"
                       >
                         {/* <img className="flex-shrink-0 object-cover mx-1 rounded-full w-9 h-9" src="https://images.unsplash.com/photo-1523779917675-b6ed3a42a561?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8d29tYW4lMjBibHVlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=face&w=500&q=200" alt="jane avatar" /> */}
@@ -115,7 +115,7 @@ const Navbar = () => {
                       </a>
 
                       <hr className="border-gray-200 dark:border-gray-700 " />
-
+                      {/* 
                       <a
                         href="/view"
                         className="block px-4 py-3 text-sm text-gray-600 capitalize transition-colors duration-200 transform dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white"
@@ -132,7 +132,7 @@ const Navbar = () => {
                         className="block px-4 py-3 text-sm text-gray-600 capitalize transition-colors duration-200 transform dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white"
                       >
                         Sign Out
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>

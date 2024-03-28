@@ -17,22 +17,74 @@ export const Experience = () => {
             onClick={() => handleIndex(0)}
             className="underline p-2 bg-gray-200 rounded-lg cursor-pointer text-xl"
           >
-            MIDAS@IIITD
+            @Iotric
           </p>
           <p
             onClick={() => handleIndex(1)}
             className="underline p-2 bg-gray-200 rounded-lg cursor-pointer text-xl"
           >
-            @UpSkool
+            MIDAS@IIITD
           </p>
           <p
             onClick={() => handleIndex(2)}
+            className="underline p-2 bg-gray-200 rounded-lg cursor-pointer text-xl"
+          >
+            @UpSkool
+          </p>
+          <p
+            onClick={() => handleIndex(3)}
             className="underline p-2 bg-gray-200 rounded-lg cursor-pointer text-xl"
           >
             @HackJnu 2.0
           </p>
         </div>
         {0 === index && (
+          <>
+            <div className="border-dashed hover:border-2 border-red-500 p-3">
+              <p className="text-3xl">
+                Fullstack developer
+                <span className="text-red-600 ml-2">
+                  <a target="_blank" href="https://midas.iiitd.edu.in/">
+                    @ Iotric
+                  </a>
+                </span>
+              </p>
+              <p className="p-2 inline-block rounded-lg bg-gray-200 border border-gray-200">
+                September 2022 – Jannuary 2023
+              </p>
+              <ul className="my-3">
+                <li className="flex gap-2 items-center">
+                  <img className="h-10 w-10" src={RightArrow} alt="" />
+                  Worked on several core projects including white label sdk,
+                  healtcare monitoring system, DTlds selling system, DNS-Dao
+                  system etc.
+                </li>
+                <li className="flex gap-2 items-center">
+                  <img className="h-10 w-10" src={RightArrow} alt="" />
+                  Made a mvp product for DNS-Dao from scratch using chakra ui
+                  with extended theme.
+                </li>
+                <li className="flex gap-2 items-center">
+                  <img className="h-10 w-10" src={RightArrow} alt="" />
+                  Made a admin panel which white-labels nexbloc and it is used
+                  by vetcoin with multilayer microservices multitenancy backend
+                  architecture. Made organizations status feature, jump on any
+                  organization page view which contains useful insights, api key
+                  generation page, premim domains page etc. Added toasts, yup
+                  resolver and integrated the onboarding flow with pusher and
+                  pusher beams.
+                </li>
+                <li className="flex gap-2 items-center">
+                  <img className="h-10 w-10" src={RightArrow} alt="" />
+                  Followed agile methodology on every project with tools used
+                  gitlab, github, slack, postman, skype, clickup, zoho, swagger,
+                  notion, figma, miro etc.
+                </li>
+              </ul>
+            </div>
+          </>
+        )}
+        {1 === index && (
           <>
             <div className="border-dashed hover:border-2 border-red-500 p-3">
               <p className="text-3xl">
@@ -71,7 +123,7 @@ export const Experience = () => {
             </div>
           </>
         )}
-        {1 === index && (
+        {2 === index && (
           <>
             <div className="border-dashed hover:border-2 border-red-500 p-3">
               <p className="text-3xl">
@@ -109,7 +161,7 @@ export const Experience = () => {
             </div>
           </>
         )}
-        {2 === index && (
+        {3 === index && (
           <>
             <div className="border-dashed hover:border-2 border-red-500 p-3">
               <p className="text-3xl">
